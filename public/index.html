@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="KanbanBoard">
+<head>
+  <title>Kanban Board</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <link rel="stylesheet" href="stylesheets/bootstrap.css">
+  <link rel="stylesheet" href="stylesheets/styles.css">
+
+  <style type="text/css">
+        @font-face {
+            font-family: 'Glyphicons Halflings';
+            src: url('./stylesheets/fonts/glyphicons-halflings-regular.ttf');
+        }
+  </style>
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  <script src="libs/prod/jquery.min.js"></script>
+  <script src="libs/prod/bootstrap.min.js"></script>
+  <script src="libs/prod/angular.min.js"></script>
+  <script src="libs/prod/angular-route.min.js"></script>
+  <script src="libs/prod/angular-messages.min.js"></script>
+  <script src="libs/prod/angular-animate.min.js"></script>
+  <script src="libs/prod/angular-sanitize.min.js"></script>
+  <script src="libs/prod/ui-bootstrap.min.js"></script>
+
+  <script src="js/app.js"></script>
+  <script src="js/appRoutes.js"></script>
+  <script src="js/controllers/ProjectsCtrl.js"></script>
+  <script src="js/services/ProjectsService.js"></script>
+
+  <script src="js/controllers/LoginCtrl.js"></script>
+  <script src="js/services/LoginService.js"></script>
+
+  <script src="js/controllers/RegisterCtrl.js"></script>
+  <script src="js/services/RegisterService.js"></script>
+
+  <script src="js/services/UserProjectsService.js"></script>
+</head>
+<body>
+  <div ng-view></div>
+</body>
+</html>
